@@ -1,0 +1,125 @@
+<!doctype html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grey Wolf - slogan</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+<nav>
+    <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><a href="mand.html">MAND</a></li>
+        <li><a href="kvinde.html">KVINDE</a></li>
+        <li><a href="secondhand.html"> SECOND HAND</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="om.html">OM</a></li>
+        <li><a href="kontakt.html">KONTAKT</a></li>
+    </ul>
+    <ul>
+        <li><a href="index.html">GreyWolf.dk</a></li>
+        <li class="hideOnMobile"><a href="mand.html">MAND</a></li>
+        <li class="hideOnMobile"><a href="kvinder.html">KVINDE</a></li>
+        <li class="hideOnMobile"><a href="secondhand.html">SECOND HAND</a></li>
+        <li class="hideOnMobile"><a href="blog.html">BLOG</a></li>
+        <li class="hideOnMobile"><a href="om.html">OM</a></li>
+        <li class="hideOnMobile"><a href="kontakt.html">KONTAKT</a></li>
+        <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>		    
+</nav>
+ 
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar() {
+    const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+
+<!--Billede med dame i hængekøje-->
+<header>
+    <div class="header-content">
+        <h2>Bæredygtigt tøj</h2>
+        <div class="line"></div>
+        <h1>Wolf Grey</h1>
+        <a href="#" class="cta">SE UDVALG</a>
+    </div>
+</header>
+
+
+<!---Produkter på forside-->
+<div class="forside-produkter">
+<h2>Nyeste produkter</h2>
+
+<div class="row2"></div>
+    <div class="col4"></div>
+        <img src="img/greywolfshirt.png" alt="">
+        <h4>T-shirt med genanvendt plast</h4>
+        <p>250 kroner</p>
+
+
+
+</div>
+
+<!--Blogindlæg på forside-->
+
+<article class="blog">
+    <div class="title">
+    <h1>NYE BLOGINDLÆG</h1>
+    <div class="line"></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="./img/vaskemaskine.jpg" alt="Vaskemaskine">
+            <h4>Her er din guide til bæredygtig tøjvask</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum obcaecati libero, veniam suscipit corrupti sapiente.</p>
+            <a href="blog.html" class="cta">LÆS MERE</a>
+        </div>
+        
+        <div class="col">
+            <img src="./img/lastbil.jpg" alt="Lastbil">
+            <h4>Hvordan dit tøj bliver transportet</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum obcaecati libero, veniam suscipit corrupti sapiente.</p>
+            <a href="blog.html" class="cta">LÆS MERE</a>
+        </div>
+
+        <div class="col">
+            <img src="./img/genbrug.jpg" alt="Gengrugstøj">
+            <h4>Genbrug er også bæredygtighed</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum obcaecati libero, veniam suscipit corrupti sapiente.</p>
+            <a href="blog.html" class="cta">LÆS MERE</a>
+        </div>
+    </article>
+
+<section class="omos">
+ <div class="omos-indhold">
+<h1>VORES VÆRDIER</h1>
+<div class="line"></div>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, in quaerat? Excepturi dolore sit laboriosam fugit reprehenderit tenetur nulla amet corrupti nisi. Neque perferendis eos magnam quidem, deleniti eius adipisci!</p>
+<a href="om.html" class="cta">LÆS MERE</a>
+</div>
+</section>
+
+<section class="footer">
+
+<p>Telefon: <a href="tel://12345678" title="Ring">12-34-56-78</a>
+    Mail: <a href="mailto:info@greywolf.dk">info@greywolf.dk</a>
+    2024 © greywolf.dk. All rights reserved. <br><br>
+     <a href="https://www.facebook.com"><img src="img/facebook.png" alt="facebook"></a>
+     <a href="http://instagram.com/"><img src="img/instagram.png" alt="Instagram"></a>
+     <a href="http://tiktok.com/"><img src="img/tiktok.png" alt="TikTok"></a>
+    </p>    
+         
+</section>
+
+  
+</div>
+
+</body>
+</html>
